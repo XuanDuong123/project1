@@ -1,0 +1,225 @@
+.product {
+    padding: 20px 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-top {
+    margin-bottom: 30px;
+}
+.page-header-breadcrumb {
+    display: flex;
+}
+.breadcrumb-item {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 12px;
+    font-size: 12px;
+    list-style: none;
+}
+.breadcrumb-item+.breadcrumb-item:before {
+    display: inline-block;
+    padding-right: 0.3rem;
+    color: #000;
+    content: "/";
+}
+.breadcrumb-item-back {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+.breadcrumb-item-back:hover {
+    text-decoration: underline;
+
+}
+.product-content-left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.product-content-left-big-img {
+    width: 80%;
+    height: auto;
+    padding-right: 20px;
+}
+.product-content-left-big-img img {
+    height: 80%;
+    width: 100%;
+}
+.product-content-left-smail-img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.product-content-left-smail-img img {
+    width: 50%;
+    border: 1px solid #000;
+
+}
+.product-content-left-smail-img img:hover {
+    border-bottom: 4px solid #000;
+    cursor: pointer;
+
+}
+.product-content-right {
+    width: 50%;
+    padding-left: 20px;
+
+}
+.product-content-right-name h1{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.product-content-right-product-code {
+    margin-top: 6px;
+    font-size: 12px;
+
+}
+.product-content-right-product-price {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #F63D30;
+}
+.product-content-right-product-price del {
+    font-size: 12px;
+    font-weight: 700;
+    color: #666;
+}
+.product-content-right-product-color {
+    margin-top: 10px;
+    font-size: 12px;
+}
+.variant-right {
+    color: #000;
+    text-decoration: none;
+}
+.variant-right:hover {
+    text-decoration: underline;
+    transition: all .3s ease-in-out;
+}
+.product-content-right-product-introduction {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.product-content-right-product-size {
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.size span{
+    padding: 5px 15px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    margin: 8px;
+}
+.size span:hover {
+    color: #fff;
+    background-color: #000;
+}
+.product-content-right-product-quantity input{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    line-height: 30px;
+}
+.product-content-right-product-quantity span {
+    font-size: 12px;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+}
+.product-content-right-product-button {
+    margin-left: 10px;
+}
+.add_to_cart {
+    font-size: 1.2rem;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+}
+.add_to_cart:hover {
+    background-color: #ff9d00;
+}
+
+.product-content-right-product-transport {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom:20px ;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+.list-item .list-item-icon {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.product-content-right-bottom {
+    position: relative;
+    padding-top: 40px;
+    border-top:1px solid #dddddd ;
+    
+    
+}
+
+.product-content-right-bottom-top {
+    position: absolute;
+    color: #666;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: -15px;
+    left: 50%;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.product-content-right-bottom-title {
+    border-bottom: 2px solid #dddddd;
+}
+.product-content-right-bottom-title span:hover  {
+    border-bottom: 2px solid #000;
+}
+.product-content-right-bottom-title-item {
+    padding: 6px;
+    cursor: pointer;
+    font-size:1.2rem ;
+    font-weight: 500;
+
+}
+.product-content-right-bottom-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.product-content-right-bottom-body p {
+    line-height: 28px;
+    font-size: 12px;
+
+}
+.product-content-right-bottom-body-brand {
+    display: none;
+}
+.product-content-right-bottom-body-detail > span {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.product-content-right-bottom-brand {
+    display: none;
+}
+.product-content-right-bottom-brand-list {
+    font-size: 1.2rem;
+    list-style: none;
+}

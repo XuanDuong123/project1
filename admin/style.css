@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 100vh;
+    padding: 0 17px;
+    color:#fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background-color: #ccc;
+}
+.logo {
+    height: 80px;
+    padding: 16px;
+}
+.menu {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.menu li:hover {
+    color: #fff;
+    background-color: #000;
+}
+.menu a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu a:hover {
+    color: #fff;
+    width: 100%;
+}
+.menu a i {
+    font-size: 12px;
+}
+.menu a span {
+    overflow: hidden;
+}
+.logout {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;   
+}
+.main--content {
+    position: relative;
+    background: #ebe9e9;
+    width: 100%;
+    padding: 10px;
+}
+.header--wrapper img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom:10px ;
+}
+
+.header--title {
+    
+}
+.user--info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search--box {
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    color: rgba(113, 99, 186,255);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+.search--box input {
+    background: transparent;
+    padding: 10px;
+}
+.search--box i {
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.search--box i:hover {
+    transform: scale(1.2);
+
+}
+.main input {
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+    padding-left:12px ;
+    margin-top: 20px;
+}
+.main .submit {
+    display: block;
+    cursor: pointer;  
+}
+.main .submit:hover {
+    color: #fff;
+    background: #000;
+}
+.category-list table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.category-list table,tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
